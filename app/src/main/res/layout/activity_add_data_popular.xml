@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addDataPopular"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_name"
+        android:textSize="20sp"
+        android:hint="Name Popular Dish"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_despo"
+        android:textSize="20sp"
+        android:hint="Description"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_calopo"
+        android:textSize="20sp"
+        android:hint="Calo"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_imgpo"
+        android:textSize="20sp"
+        android:hint="Popular Dish Image URL"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/add_submit"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"
+        android:text="Add to Firebase"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:backgroundTint="@color/black"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_back"
+        android:textSize="20sp"
+        android:text="Back"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
